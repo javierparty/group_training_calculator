@@ -17,23 +17,4 @@
     <input type="submit" value="Next" id="submit">
   </form>
 </body>
-<script>
-  // let numPeopleInput = document.getElementById('numPeople');
-  // numPeopleInput.addEventListener('input', function() { displayPeoplesSessions(this.value); });
-
-  // function displayPeoplesSessions(numPeople) {
-  //   let form = document.getElementById('form'),
-  //       formSubmit = document.getElementById('submit');
-  //   for (var i = 1; i <= numPeople; i++) {
-  //     let newInput = document.createElement('input'),
-  //         newInputLabel = document.createElement('label');
-  //     newInput.name = newInput.id = 'person' + i;
-  //     newInput.type = 'number';
-  //     newInputLabel.for = newInput.id;
-  //     newInputLabel.innerHTML = 'Number of booked sessions of person ' + i;
-  //     form.insertBefore(newInputLabel, formSubmit);
-  //     form.insertBefore(newInput, formSubmit);
-  //   }    
-  // } 
-</script>
 </html>
